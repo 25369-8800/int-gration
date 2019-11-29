@@ -35,16 +35,46 @@ nav a{
  .titresection{
      text-transform: uppercase;
  }
- #cercle {
+ #cercle{
         width: 20px;
         height: 20px;
         border-radius: 20px;
         background: blue;
         display: inline-block;
+        vertical-align: middle;
 }
 .onebox{
     margin: auto;
     width: 50%;
     text-align: center;
 }
+.global{
+    flex-direction: column;
+}
+.imgblock1{
+    display: flex;
+    ;
+}
+.droite{
+    display: flex;
+}
+.iconepuce{
+    height: 10vh;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.icone{
+    background-color: chocolate;
+    vertical-align: middle;
+    height: 5vh;
+    width: 10%;
+}
+.puce{
+    width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        background: blue;
+}
+
  
