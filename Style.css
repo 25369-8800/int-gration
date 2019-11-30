@@ -1,5 +1,4 @@
 header{
-background-color: white;
 display: flex;
 justify-content: space-between;
 margin: auto;
@@ -20,17 +19,8 @@ nav a{
     display: flex;
     align-items: center;
 }
- figure{
-     background-color: green;
- }
  figure img{
      width: 100%;
- }
- main{
-     background-color: orange;
- }
- section{
-     background-color: palegreen;
  }
 #intro h1{
      text-transform: uppercase;
@@ -83,11 +73,14 @@ width: 100%;
 .droite{
     display: flex;
 }
+#projet{
+    width: 100%;
+}
 #images{
     width: 100%;
     height: 50%;
-    display: flex;
     margin: auto;
+    display: flex;
 }
 #images2{
     width: 100%;
@@ -95,4 +88,3 @@ width: 100%;
     display: flex;
     margin: auto;
 }
- 
