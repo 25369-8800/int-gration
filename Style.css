@@ -104,6 +104,7 @@ width: 100%;
     align-items: center;
 }
 footer{
+    padding: 50px;
     display: flex;
     background-size: cover;
     background-image: url(./Assets/images/tianjin-2185510.jpg);
@@ -139,4 +140,15 @@ footer label {
     background-color: blue;
     color: white;
     margin-bottom: 12%;
+}
+.confirm{
+    margin-top: 12%;
+    margin-right: 30%;
+}
+.boutonperso{
+    background-color: blue;
+}
+.maj{
+    color: white;
+    text-transform: uppercase;
 }
