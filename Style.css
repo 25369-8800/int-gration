@@ -32,31 +32,35 @@ nav a{
  section{
      background-color: palegreen;
  }
- .titresection{
+#intro h1{
      text-transform: uppercase;
+     text-align: center;
  }
  #cercle{
         width: 20px;
         height: 20px;
         border-radius: 20px;
         background: blue;
-        display: inline-block;
         vertical-align: middle;
+        margin: auto;
 }
-.onebox{
-    margin: auto;
-    width: 50%;
+#intro p{
     text-align: center;
 }
-.global{
-    flex-direction: column;
-}
-.imgblock1{
+#service{
     display: flex;
-    ;
 }
-.droite{
+#ordi{
     display: flex;
+    width: 100%;
+}
+#ordi img{
+    width: 100%;
+}
+#together{
+display: flex;
+flex-direction: column;
+width: 100%;
 }
 .iconepuce{
     height: 10vh;
@@ -75,6 +79,10 @@ nav a{
         height: 15px;
         border-radius: 15px;
         background: blue;
+        display: flex;
+}
+.droite{
+    display: flex;
 }
 
  
