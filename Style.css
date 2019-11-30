@@ -3,6 +3,30 @@ display: flex;
 justify-content: space-between;
 margin: auto;
 }
+figure{
+    padding: 100px;
+    background-size: cover;
+    background-image: url(./Assets/images/slider/bg1.jpg);
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+figure p{
+    margin-top: 2%;
+}
+figure button{
+    padding: 25px;
+    background-color: blue;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+figure h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
 #logo{
     margin-left: 5%;
     width: 100%;
@@ -35,6 +59,7 @@ nav a{
 }
 #intro p{
     text-align: center;
+    margin-bottom: 2%;
 }
 #service{
     display: flex;
@@ -50,6 +75,7 @@ nav a{
 display: flex;
 flex-direction: column;
 width: 100%;
+margin-top: 7%;
 }
 .iconepuce{
     height: 10vh;
@@ -80,12 +106,14 @@ width: 100%;
     height: 50%;
     margin: auto;
     display: flex;
+    margin-top: 1%;
 }
 #images2{
     width: 100%;
     height: 50%;
     display: flex;
     margin: auto;
+    margin-bottom: 2%;
 }
 #b1 button{
     background-color: blue;
