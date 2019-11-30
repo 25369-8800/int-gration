@@ -103,3 +103,16 @@ width: 100%;
     margin: auto;
     align-items: center;
 }
+footer{
+    background-size: cover;
+    background-image: url(./Assets/images/tianjin-2185510.jpg);
+    width: 100%;
+    margin: auto;
+} 
+footer label {
+    color: white;
+    flex-direction: column;
+}
+.nom{
+    margin-bottom: 2%;
+}
