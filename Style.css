@@ -143,12 +143,15 @@ footer label {
 }
 .confirm{
     margin-top: 12%;
-    margin-right: 30%;
+    margin-right: 37.5%;
 }
 .boutonperso{
+    margin-top: 82%;
     background-color: blue;
-}
-.maj{
     color: white;
+    font-size: 12px;
     text-transform: uppercase;
+}
+#name{
+    margin-bottom: 10%;
 }
