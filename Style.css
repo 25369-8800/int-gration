@@ -104,6 +104,7 @@ width: 100%;
     align-items: center;
 }
 footer{
+    display: flex;
     background-size: cover;
     background-image: url(./Assets/images/tianjin-2185510.jpg);
     width: 100%;
@@ -115,4 +116,27 @@ footer label {
 }
 .nom{
     margin-bottom: 2%;
+}
+.formulaire{
+    background-color: rgba(255, 255, 255, 0.24);
+    padding : 50px;
+    width: 50%;
+    margin-left: 80%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: right;
+}
+.formulaire h1{
+    margin-right: 35%;
+    color: blue;
+}
+.formulaire button{
+    text-transform: uppercase;
+    width: 100%;
+    margin-right: 1%;
+    background-color: blue;
+    color: white;
+    margin-bottom: 12%;
 }
