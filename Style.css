@@ -9,24 +9,55 @@ figure{
     margin: auto;
     color: white;
 }
+#fleche{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 362px;
+    margin-right: -2px;
+    margin-left: 35px;
+}
+#fondfleche{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 400px;
+}
+.demicercle{
+    margin-left: 10px;
+    display: flex;
+    height: 40px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.507);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transform : rotate(90deg);
+    z-index: 1; 
+}
+.demicercle2{
+    margin-right: -28px;
+    display: flex;
+    height: 40px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.507);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transform : rotate(-90deg);
+    z-index: 1;
+}
 .arrow-left {
-    width: 0;
-    height: 0;
-    
-    border-top: 16px solid transparent;
-    border-bottom: 16px solid transparent;
-    border-right: 20px solid #8de698;
+    font-size: 30px;
+    color: white;
+    z-index: 2;
 }
 .arrow-right {
-    width: 0;
-    height: 0;
-    
-    border-top: 16px solid transparent;
-    border-bottom: 16px solid transparent;
-    
-    border-left: 20px solid #e888a3;
+    display: flex;
+    font-size: 30px;
+    color: white;
+    z-index: 2;
 }
 #boutonslide {
+    margin-top: 70px;
     position: relative;
     bottom: 600px;
     left: 200px;
