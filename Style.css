@@ -9,11 +9,29 @@ figure{
     margin: auto;
     color: white;
 }
-#boutonslide{
+.arrow-left {
+    width: 0;
+    height: 0;
+    
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    border-right: 20px solid #8de698;
+}
+.arrow-right {
+    width: 0;
+    height: 0;
+    
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    
+    border-left: 20px solid #e888a3;
+}
+#boutonslide {
     position: relative;
     bottom: 600px;
     left: 200px;
-    margin-bottom: -400px;
+    margin-bottom: -400px; 
+    
 }
 figure button{
     padding: 25px;
@@ -23,7 +41,7 @@ figure button{
     color: white;
     margin-top: 2%;
     margin-bottom: 10%;
-    border-block-end: solid rgba(0, 0, 0, 0.363) 5px
+    border-block-end: solid rgba(3, 3, 167, 0.575) 5px;
 }
 figure h1{
     text-transform: uppercase;
