@@ -41,6 +41,7 @@ figure button{
     color: white;
     margin-top: 2%;
     margin-bottom: 10%;
+    border-style: none;
     border-block-end: solid rgba(3, 3, 167, 0.575) 5px;
 }
 figure h1{
