@@ -13,7 +13,7 @@ figure{
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 362px;
+    top: 462px;
     margin-right: -2px;
     margin-left: 35px;
 }
@@ -21,7 +21,7 @@ figure{
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 400px;
+    top: 500px;
 }
 .demicercle{
     margin-left: 10px;
@@ -131,13 +131,6 @@ nav a{
      text-transform: uppercase;
      text-align: center;
  }
- #cercle{
-        width: 20px;
-        height: 20px;
-        border-radius: 20px;
-        background: blue;
-        margin: auto;
-}
 #intro p{
     text-align: center;
     margin-bottom: 2%;
@@ -198,9 +191,21 @@ margin-top: 7%;
     margin-bottom: -10px;
 }
 #b1 button{
+    border-style: none;
     background-color: blue;
     color: white;
 }
+#triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 25px solid blue;
+    border-right : 25px solid transparent;
+    border-left : 25px solid transparent;
+    position: relative;
+    top: -2px;
+    left: 1010px;
+   }
 #navphotos{
     display: flex;
     width: 50%;
