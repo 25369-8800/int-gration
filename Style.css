@@ -83,10 +83,10 @@ figure{
 /* Design du bouton slider */
 figure button{
     padding: 25px;
-    background-color: blue;
+    background: linear-gradient(to right,white, blue);
     text-transform: uppercase;
     font-size: 15px;
-    color: white;
+    color: black;
     margin-top: 2%;
     margin-bottom: 10%;
     border-style: none;
@@ -141,7 +141,7 @@ figure h1{
        width: 20px;
        height: 20px;
        border-radius: 20px;
-       background: blue;
+       background: radial-gradient(circle at center,white, blue);
        margin: auto;
 }
 #intro2 p{
