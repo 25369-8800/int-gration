@@ -221,6 +221,15 @@ margin-top: 7%;
 #projet{
     width: 100%;
 }
+
+#images{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    margin-top: 1%;
+}
+/* Mise en place de la figcation 4ème image 1ère ligne*/
 figcaption{
     background-color: rgba(0, 0, 0, 0.568);
     color: white;
@@ -237,13 +246,6 @@ figcaption h1{
 figcaption p{
     font-size: 20px;
     margin-left: 15px;
-}
-#images{
-    width: 100%;
-    height: 50%;
-    margin: auto;
-    display: flex;
-    margin-top: 1%;
 }
 #images2{
     width: 100%;
