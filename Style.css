@@ -230,22 +230,27 @@ margin-top: 7%;
     margin-top: 1%;
 }
 /* Mise en place de la figcation 4ème image 1ère ligne*/
-figcaption{
+#figcaption{
     background-color: rgba(0, 0, 0, 0.568);
     color: white;
     width: 23.3%;
     position: relative;
     left: 1795px;
     top: 411px;
+    opacity: 0;
 }
-figcaption h1{
+#figcaption h1{
     font-size: 30px;
     text-transform: uppercase;
     margin-left: 15px;
+
 }
-figcaption p{
+#figcaption p{
     font-size: 20px;
     margin-left: 15px;
+}
+#figcaption:hover{
+    opacity: 1;
 }
 #images2{
     width: 100%;
