@@ -217,6 +217,7 @@ margin-top: 7%;
     position: relative;
     top: -3px;
     left: 1010px;
+    margin-top: -150px;
    }
 #navphotos{
     display: flex;
@@ -240,7 +241,7 @@ margin-top: 7%;
     height: 50%;
     margin: auto;
     display: flex;
-    margin-top: 1%;
+    margin-top: -7%;
 }
 /* Mise en place de la figcation 4ème image 1ère ligne*/
 #figcaption{
@@ -249,7 +250,7 @@ margin-top: 7%;
     width: 23.3%;
     position: relative;
     left: 1795px;
-    top: 411px;
+    top: 242px;
     opacity: 0;
 }
 #figcaption h1{
@@ -298,6 +299,9 @@ footer label {
     flex-direction: column;
     align-items: flex-end;
     justify-content: right;
+}
+footer{
+    margin-top: -25px;
 }
 .formulaire h1{
     margin-right: 35%;
