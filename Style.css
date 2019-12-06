@@ -110,7 +110,8 @@ figure button{
     position: relative;
     bottom: 600px;
     left: 200px;
-    margin-bottom: -400px; 
+    margin-bottom: -400px;
+    width: 92%; 
     
 }
 /* Design du titre du texte slider*/
