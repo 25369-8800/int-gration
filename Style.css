@@ -1,14 +1,35 @@
 header{
-    margin-top: -50px;
+    /* Mise en place de la barre des menus*/
 display: flex;
 justify-content: space-between;
 }
+#logo{
+    margin-left: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 100%;;
+    display: flex;
+}
+nav a{
+    margin-right: 5%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+/* Couleur du texte sur l'image */
 figure{
-    padding: 30px;
+
     width: 100%;
     margin: auto;
     color: white;
 }
+
+/* Placement des flèches et des demi-cercles du slider*/
 #fleche{
     display: flex;
     justify-content: space-between;
@@ -23,8 +44,22 @@ figure{
     position: relative;
     top: 500px;
 }
+/* Design des flèches de leur fond, mise au premier-plan et ajustement */
+.arrow-left {
+    font-size: 30px;
+    color: white;
+    z-index: 2;
+    margin-left: -27px;
+}
+.arrow-right {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    z-index: 2;
+    margin-right: 7px;
+}
 .demicercle{
-    margin-left: 10px;
+    margin-left: -20px;
     display: flex;
     height: 40px;
     width: 80px;
@@ -35,7 +70,7 @@ figure{
     z-index: 1; 
 }
 .demicercle2{
-    margin-right: -28px;
+    margin-right: -20px;
     display: flex;
     height: 40px;
     width: 80px;
@@ -45,25 +80,7 @@ figure{
     transform : rotate(-90deg);
     z-index: 1;
 }
-.arrow-left {
-    font-size: 30px;
-    color: white;
-    z-index: 2;
-}
-.arrow-right {
-    display: flex;
-    font-size: 30px;
-    color: white;
-    z-index: 2;
-}
-#boutonslide {
-    margin-top: 70px;
-    position: relative;
-    bottom: 600px;
-    left: 200px;
-    margin-bottom: -400px; 
-    
-}
+/* Design du bouton slider */
 figure button{
     padding: 25px;
     background-color: blue;
@@ -75,35 +92,43 @@ figure button{
     border-style: none;
     border-block-end: solid rgba(3, 3, 167, 0.575) 5px;
 }
+/* Mise en position du texte et du bouton slider*/
+#boutonslide {
+    margin-top: 70px;
+    position: relative;
+    bottom: 600px;
+    left: 200px;
+    margin-bottom: -400px; 
+    
+}
+/* Design du titre du texte slider*/
 figure h1{
     text-transform: uppercase;
     font-size: 30px;
 }
-#logo{
-    margin-left: 5%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-nav{
-    margin-top: 105px;
-    width: 100%;;
-    display: flex;
-}
-nav a{
-    margin-right: 5%;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-}
+/* Image du slider*/
  figure img{
      width: 100%;
  }
+ /* Taille et position du main*/
  main{
      width: 100%;
      position: relative;
      top: -80px;
  }
+ /* Titre, cercle, p, section services*/ 
+ #intro{
+     position: relative;   
+ }
+#intro h2{
+     text-transform: uppercase;
+     text-align: center;
+ }
+#intro p{
+    text-align: center;
+    margin-bottom: 2%;
+}
+/* Titre, cercle, p, section projets*/ 
  #intro2{
     position: relative;
     
@@ -123,18 +148,7 @@ nav a{
    text-align: center;
    margin-bottom: 2%;
 }
- #intro{
-     position: relative;
-     
- }
-#intro h2{
-     text-transform: uppercase;
-     text-align: center;
- }
-#intro p{
-    text-align: center;
-    margin-bottom: 2%;
-}
+/*Positionnement de la section services*/
 #service{
     display: flex;
     margin-bottom: 90px;
@@ -173,6 +187,37 @@ margin-top: 7%;
 .droite{
     display: flex;
 }
+
+/* Mise en place de la nav à bouton pour les photos*/
+#b1 button{
+    border-style: none;
+    background-color: blue;
+    color: white;
+}
+#triangle{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 25px solid blue;
+    border-right : 25px solid transparent;
+    border-left : 25px solid transparent;
+    position: relative;
+    top: -3px;
+    left: 1010px;
+   }
+#navphotos{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+#navphotos nav{
+    display: flex;
+    width: 29.5%;
+    margin: auto;
+    align-items: center;
+}
+/*Positionnement de la section projet*/
 #projet{
     width: 100%;
 }
@@ -190,34 +235,6 @@ margin-top: 7%;
     margin: auto;
     margin-bottom: -10px;
 }
-#b1 button{
-    border-style: none;
-    background-color: blue;
-    color: white;
-}
-#triangle{
-    display : inline-block;
-    height : 0;
-    width : 0;
-    border-top : 25px solid blue;
-    border-right : 25px solid transparent;
-    border-left : 25px solid transparent;
-    position: relative;
-    top: -2px;
-    left: 1010px;
-   }
-#navphotos{
-    display: flex;
-    width: 50%;
-    margin: auto;
-    align-items: center;
-}
-#navphotos nav{
-    display: flex;
-    width: 29.5%;
-    margin: auto;
-    align-items: center;
-}
 footer{
     padding: 50px;
     display: flex;
@@ -226,6 +243,7 @@ footer{
     width: 100%;
     margin: auto;
 } 
+/* Mise en place du formulaire et son design*/
 footer label {
     color: white;
     flex-direction: column;
@@ -269,12 +287,4 @@ footer label {
 }
 #name{
     margin-bottom: 10%;
-}
-h2::after{
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    background: blue;
-    margin: auto;
-
 }
